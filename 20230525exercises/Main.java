@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args){
         System.out.println("hello world May 28");
 
-        classname testClass = new classname();
+       // classname testClass = new classname();
 
         Parisukat parisukat1 = new Parisukat();
         parisukat1.squareName = "Uno";
