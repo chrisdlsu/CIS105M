@@ -23,6 +23,7 @@ public class Exercise {
 
         sc.close();
 
-
+        sqOne.setColor("Burgundy");
+        System.out.println(sqOne.getColor());
     }
 }
