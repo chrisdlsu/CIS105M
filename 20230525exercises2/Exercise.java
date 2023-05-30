@@ -23,6 +23,15 @@ public class Exercise {
 
         sc.close();
 
+        int nResultArea = sqOne.calculateArea(scInput);
+
+        System.out.println("The area of your square is " + nResultArea);
+
+        /* Setting the color and printing it out */
+        sqOne.nColor = "Prussian";
+
+        System.out.println(sqOne.getColor());
+
 
     }
 }
