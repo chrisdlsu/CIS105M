@@ -6,13 +6,17 @@ public class pail {
 
     //CONSTRUCTORS
     
+
     //BEHAVIORS
-    //SETTERS
+    //Setters
     public void setPaleName (String p) {
-        this.paleName = "0";
+        this.paleName = p;
     }
 
-    //GET
+    //Getters
+    public String getPaleName() {
+        return this.paleName;
+    }
     //OTHER METHODS
 
 }
